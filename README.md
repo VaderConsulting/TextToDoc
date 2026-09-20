@@ -1,6 +1,6 @@
 # TextToDoc
 
-VB6 working copy of `TextToDoc` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: TextToDoc. Output: `TextToDoc.exe`.
+VB6 text-to-Word converter (`TextToDoc.exe`): picks a `.txt` source and `.doc` destination, opens Word via Automation, and SaveAs as a Word document. Open `TextToDoc.vbp` in the VB6 IDE (needs Word installed).
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,23 +10,4 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `TextToDoc` (`TextToDoc.vbp`) | VB6 | WinForms exe | TextToDoc |
-
-## How to open
-
-Open the `.vbp` in Visual Basic 6.0 IDE:
-- `TextToDoc.vbp`
-
-## Requirements
-
-- Visual Basic 6.0 IDE
-- Registered OCX/DLL dependencies referenced by the `.vbp` (may need to be installed separately):
-  - `COMDLG32.OCX`
-
-## Attribution and provenance
-
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Old/TextToDoc`.
-
-## License
-
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+| `TextToDoc` (`TextToDoc.vbp`) | VB6 | WinForms exe | Convert .txt to .doc via Word Automation |
